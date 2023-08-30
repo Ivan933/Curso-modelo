@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111000111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x28A296">
+  <layouts>
+    <layout name="npnxnanbsnfns11111000111" font="Open Sans" controllayout="npnxnanbsnfns11111000111" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+    <layout name="pxabnsnfns11111000111" font="Open Sans" controllayout="pxabnsnfns11111000111" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+    <layout name="npxnabnsnfns11111000111" font="Open Sans" controllayout="npxnabnsnfns11111000111" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+    <layout name="npnxnanbnsnfns11111000111" font="Open Sans" controllayout="npnxnanbnsnfns11111000111" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+    <layout name="pxabnsnfns11111000110" font="Open Sans" controllayout="pxabnsnfns11111000110" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+    <layout name="pxabnsnfns01001100111" font="Open Sans" controllayout="pxabnsnfns01001100111" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+    <layout name="pxabsnfns11111000111" font="Open Sans" controllayout="pxabsnfns11111000111" colorscheme="pxabnsnfns11111000111" string_table="pxabnsnfns11111000111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="M&amp;#243;dulo 1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/5afRUquZKRT.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="true" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+              <listitem name="resources" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" value="WhatsApp_Image_2022-03-22_at_8.13.33_PM__2_-removebg-preview.png" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111000110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxabnsnfns01001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabsnfns11111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111000111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x28A296" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x28A296" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x28A296" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111000111">
+      <string id="more_info">More info</string>
+      <string id="bio">Bio</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="action">Action</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="filter">Filter</string>
+      <string id="acc_finish">finish</string>
+      <string id="acc_pause">pause</string>
+      <string id="restart">Restart</string>
+      <string id="acc_replay">replay</string>
+      <string id="acc_play">play</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_volume">volume</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="acc_definition">definition</string>
+      <string id="definition">Definition</string>
+      <string id="search_results">Search Results</string>
+      <string id="terms">Terms</string>
+      <string id="search_in">Search in:</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_of">of</string>
+      <string id="settings_tip">Settings</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="submit_tip">Submit</string>
+      <string id="pause_tip">Pause</string>
+      <string id="play_tip">Play</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="mute_tip">Mute</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="replay_tip">Replay</string>
+      <string id="search">Search...</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_visited">visited</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="search_toggle">Search</string>
+      <string id="question_list">Question List</string>
+      <string id="check_include">Check to include</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="closed_captions">Captions</string>
+      <string id="glossary">Glossary</string>
+      <string id="outline">Menu</string>
+      <string id="transcript">Notes</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="exit">Exit</string>
+      <string id="resume">Resume</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="alt_key">Alt</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="spacebar_key">Space</string>
+      <string id="enter_key">Enter</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="acc_active">active</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="streaming_video_local_playback_learn_more">Learn more...</string>
+      <string id="streaming_video_local_playback_republish">To preview this video, use the Preview functionality in Storyline, republish your course using standard MP4 video, or publish to Review 360.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6CXlMZsYKUq" displaytext="Módulo 1 " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6CXlMZsYKUq.6PeqX5XMPqS" displaytext="Inicio" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5yUKjlmzSEQ" displaytext="Objetivos" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6igwHOCPWlS" displaytext="Autodiagnóstico" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5nVC2NgjrGC" displaytext="Autodiagnóstico" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6HgArwwjKsX" displaytext="Autodiagnóstico" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.66Kk3sqEYjD" displaytext="El Aprendiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5UiFVDWodG6" displaytext="Competencias Laborales" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6TKpxNchFzL" displaytext="Modalidades de Formación" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6eGhz2gYRZ2" displaytext="Diferencias entre la educación formal y la no formal" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6bEIOeIp8Gk" displaytext="Formación por competencias" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5j0cOP5R0wo" displaytext="Nuevas Habilidades de Aprendizaje" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5Wgg7XDNIeQ" displaytext="Modelo 70/20/10" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.66hETZscEtf" displaytext="Campos de acción" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6S6znn0ctTx" displaytext="El conocimiento de las empresas" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6Hyojoe6LsO" displaytext="El conocimiento de las empresas" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.68rMAzW7L70" displaytext="Motivación por aprender" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5Z3WaiOR4QF" displaytext="Cómo lograr la motivación" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5zmhdRxprqc" displaytext="Cómo aprender a estudiar" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.6K18xVIwJcS" displaytext="El lugar donde se aprende" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.5tglRnpVgQl" displaytext="Administrando el Tiempo" expand="false" type="slide" />
+            <slidelink slideid="_player.6CXlMZsYKUq.68Bx9titq9y" displaytext="Verdadero o Falso" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6CXlMZsYKUq.6PeqX5XMPqS" slidebank="false" type="slide">          el aprendizaje  en la empresa  módulo 01  iniciar iniciar iniciar iniciar       </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5yUKjlmzSEQ" slidebank="false" type="slide"> organizar  organizar el espacio didáctico para la capacitación   aplicar  aplicar técnicas para aprender en un contexto laboral   identificar  identificar el concepto de empresas que aprenden  y el rol que tienen los aprendices y tutores.  aprendizajes esperados  el curso está diseñado para ayudarte a alcanzar los siguientes objetivos: 01 |  técnicas para la enseñanza práctica en el puesto de trabajo|  módulo 1   1995  1995  1995  2003  2003  2003  2020  2020  2020     identificar aplicar organizar</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6igwHOCPWlS" slidebank="false" type="slide">incorrecto más adelante encontrarás la respuesta continuar continuar continuar continuar correcto la respuesta es sido correcta. continuar continuar continuar continuar   autodiagnóstico autodiagnóstico  responda las siguientes preguntas de manera breve, si no sabe la respuesta, no se preocupe por qué las respuestas están desarrolladas en el módulo. responda las siguientes preguntas de manera breve, si no sabe la respuesta, no se preocupe por qué las respuestas están desarrolladas en el módulo. 02 | técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1    revisar revisar revisar revisar  ¿qué es la educación no formal?</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5nVC2NgjrGC" slidebank="false" type="slide">continúa más adelante encontrarás la respuesta continuar continuar continuar continuar correcto la respuesta es correcta continuar continuar continuar continuar   autodiagnóstico autodiagnóstico  responda las siguientes preguntas de manera breve, si no sabe la respuesta, no se preocupe por qué las respuestas están desarrolladas en el módulo. responda las siguientes preguntas de manera breve, si no sabe la respuesta, no se preocupe por qué las respuestas están desarrolladas en el módulo. 03 | técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1    revisar revisar revisar revisar  ¿qué diferencia existe entre enseñanza y transferencia?</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6HgArwwjKsX" slidebank="false" type="slide">incorrecto más adelante encontrarás la respuesta continuar continuar continuar continuar correcto la respuesta es sido correcta. continuar continuar continuar continuar   autodiagnóstico autodiagnóstico  responda las siguientes preguntas de manera breve, si no sabe la respuesta, no se preocupe por qué las respuestas están desarrolladas en el módulo. responda las siguientes preguntas de manera breve, si no sabe la respuesta, no se preocupe por qué las respuestas están desarrolladas en el módulo. 04 | técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1    revisar revisar revisar revisar  ¿qué son las empresas que aprenden y cuál es el rol del tutor en este escenario? </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.66Kk3sqEYjD" slidebank="false" type="slide"> el concepto de industria 4.0 surgió en alemania, y éste, hacía referencia a los populares términos como pueden ser cuarta revolución industrial, ciberindustria, industria inteligente etc. aunque todos estos términos puedan ser muy futuristas, la industria 4.0 simplemente consiste en interconectar todas las partes de una empresa dando lugar a una automatización efectiva y una empresa más inteligente.    el aprendiz  el mayor desafío que existe en el mundo del trabajo del siglo xxi es la capacidad que deben tener los aprendices para adquirir nuevas competencias. durante casi todo el siglo xx una persona podía sobrevivir en un determinado trabajo a partir de una serie de habilidades bastante estandarizadas, pero a partir de la industria 4.0 la necesidad de adquirir nuevas competencias se ha hecho aceleradamente cada vez más importante.  05| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1        tal vez una de las mayores problemáticas sea aquella que tiene relación con la posibilidad de que un trabajador sea reemplazado por un robot. de hecho, recientes estudios avalan el hecho de que en poco tiempo más, cerca de 800 millones de trabajadores serán reemplazados por máquinas con inteligencia artificial.    </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5UiFVDWodG6" slidebank="false" type="slide">03| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1 competencias laborales  una manera de lograr ralentizar este fenómeno es que los trabajadores actuales adquieran la competencia del aprender a aprender de manera tal que la incorporación tecnológica no los tome de sorpresa, sino que ellos puedan ser un factor de soporte y colaboración para dicha incorporación. sin embargo, las metodologías de aprendizaje y enseñanza no se han adaptado a las nuevas realidades del siglo xxi y siguen difundiéndose con estrategias propias de la academia, es decir, educación formal, pero alejados del mundo de la producción.   06| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1 competencias laborales  qué son las competencias laborales: “… un conjunto identificable y evaluable de capacidades que permiten desempeños satisfactorios en situaciones reales de trabajo, de acuerdo a estándares históricos y tecnológicos vigentes.” “… en la definición de competencia se integran el conocimiento y la acción.”  </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6TKpxNchFzL" slidebank="false" type="slide">   educación informal esta educación se imparte sin ningún recurso pedagógico y no está planificada, ya que se basa en el aprendizaje a través de la experiencia en contacto directo con la realidad y nuestro entorno.  dentro de esa educación podemos encontrar la enseñanza puntual, por ejemplo, la que hace un compañero de trabajo a otro por el uso de una herramienta computacional, como tablas dinámicas en una planilla de cálculo.   educación no formal hace referencia a programas que no están en el sistema educativo, se centran en aquellas necesidades que surgen en la empresa.  entre las modalidades de este tipo de educación podemos encontrar actividades de formación en ciertos debates, talleres o cursos y la capacitación en general.    educación formal  esta educación hace referencia a la que se desarrolla dentro de un sistema educativo.  se estructura a partir de un currículo y una normativa ya establecida, la cual posee niveles y  otorga una titulación académica oficial.  con lo cual, aquí se encontrarían los organismos como colegios, institutos, centros de formación profesional y universidades. modalidades de  la formación   la educación formal corresponde a una forma de enseñanza propia de la escuela, un centro de formación técnica o la universidad y se caracteriza por ser la formación que llamamos del tipo académica. la formación en la empresa se da en el escenario no formal, es decir: la capacitación. por último, la educación informal es la forma de aprendizaje aleatoria que se produce a partir de las experiencias en la vida, por ejemplo, trabajando libremente con un maestro un oficio determinado o aprendiendo por internet.  07| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1   tipos de educación formal no formal  informal.  + + + + + + + + +</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6eGhz2gYRZ2" slidebank="false" type="slide">  diferencias entre la educación formal y la no formal  08| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1   la educación formal entrega conocimientos generales. es un proceso estructurado, con objetivos específicos bien definidos. la formación en la empresa, en cambio, busca provocar un cambio en el trabajador en función de sus propias necesidades y objetivos.  en la educación formal la acción de "producir" es secundaria. en el aprendizaje académico, la teoría tiene mayor importancia que la práctica.  en las empresas es a la inversa, porque se busca generar cambios positivos del modo más rápido posible en el trabajador.   </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6bEIOeIp8Gk" slidebank="false" type="slide">            + + + + + + competencias de base competencias de base competencias de base    competencias laborales competencias laborales competencias laborales     formación por competencias   la educación formal se orienta a formar en las denominadas “competencias de base”, es decir, los conocimientos y habilidades principales para iniciarse en un puesto de trabajo. la educación no formal transfiere competencias laborales o funcionales al trabajador que ya posee las competencias de base.  en este gráfico se observa cómo en la educación no formal, el tutor aplica diversas metodologías para transferir competencias a un aprendiz, quien adquiere esas competencias de manera integral: esto es, habilidades prácticas, conocimientos relevantes asociados a dichas habilidades y comportamientos propios de la práctica a desarrollar. en la educación formal, tenemos un profesor que enseña desde la teoría una serie de conocimientos, los que el estudiante debe aprender, aunque su aplicabilidad sea difusa.  09| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1  </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5j0cOP5R0wo" slidebank="false" type="slide">   nuevas habilidades  como resultado, estos trabajadores que se desempeñaban en terreno pasaron a desempeñarse en espacios tecnológicos con innumerables pantallas, computadores y otros instrumentos que les permitían controlar íntegramente toda una línea de producción.      nuevas habilidades  estos trabajadores fueron instruidos internamente por la compañía tanto en la forma como manejar las nuevas tecnologías como en los factores teóricos relacionados con la producción en la cual ellos estaban interviniendo.      nuevas habilidades  esta empresa lo que hizo fue formar a sus antiguos trabajadores, los más propensos a adquirir nuevas habilidades, y logró que transitara desde un colaborador con habilidades manuales a otro en las cuales se requieren competencias digitales.       nuevas habilidades  estas plantas antiguamente contaban con centenares de trabajadores, pero a medida que fueron transcurriendo los últimos años y la tecnología se fue incorporando, cada vez más se requirió de trabajadores mayormente profesionalizados.        nuevas habilidades    una de las más importantes empresas chilenas productoras de celulosa y paneles de madera, con presencia internacional, cuenta con plantas enormes tanto en extensión como en complejidad de las maquinarias que en ellas están instaladas. nuevas habilidades de aprendizaje para los trabajadores del siglo xxi  lee esta interesante historia acerca de las nuevas habilidades de aprendizaje, descubre el orden correcto. 10| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1   empresa empresa empresa empresa innovación innovación innovación innovación competencias competencias competencias competencias capacitaciones capacitaciones capacitaciones capacitaciones resultados resultados resultados resultados </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5Wgg7XDNIeQ" slidebank="false" type="slide">11| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1 modelo  70/20/10  el siguiente gráfico muestra el modelo que siguen numerosas exitosas compañías, donde el 70% de la capacitación es de carácter interno, a cargo de un tutor o instructor, el 20% a cargo de mentores internos y sólo el 10% queda disponible para la capacitación externa. de esta manera la empresa asegura manejar adecuadamente el conocimiento y la forma de hacer las cosas que resultan propias y la diferencian de la competencia.   en la capacitación interna, no sólo los trabajadores toman la mayor parte del protagonismo, sino también la alta gerencia y las jefaturas que le siguen, en el orden de encarar la formación dentro de la empresa como un activo que preserva el “know how” de la compañía, facilitando su sustentabilidad a través de la multiplicación de las mejores prácticas y de la mejora continua.  </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.66hETZscEtf" slidebank="false" type="slide"> activos intangibles     aprendizaje organizacional     capital humano     gestión del conocimiento     capital intelectual    campos de acción de la formación en la empresa   existen dos campos de acción, el primero relativo al propio trabajador y sus habilidades para lograr el aprendizaje, el segundo se relaciona con la formación al interior de la empresa a cargo de tutores o instructores internos.  en ambos campos de acción estamos pensando en empresas que orientan su quehacer no sólo a la producción, sino que también al aprendizaje.  son las denominadas organizaciones que aprenden.  antes de abordar los dos campos de acción, es muy importante conversar acerca de la gestión del conocimiento de las empresas. para las empresas el conocimiento es un valor estratégico por cuanto necesariamente les da una ventaja competitiva, ya sea porque sus trabajadores son más competentes o por el hecho de estar más abiertas a la creatividad y a la innovación.          12| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1              </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6S6znn0ctTx" slidebank="false" type="slide"> las empresas modernas son aquellas que incorporan mayor tecnología a sus procesos productivos sistema de gestión de conocimiento a través de éste, la empresa puede conservar y facilitar el acceso a lo más valorado que ella tiene: el conocimiento y experiencia de sus trabajadores la verdadera modernidad está en el correcto manejo del conocimiento interno de las organizaciones  activos estratégicos  empresa=comunidad social   conocimiento       ventaja  competitiva  aplicar y  crear nuevos  conocimientos   transmisión interna      creación stock  conocimiento 13| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1 el conocimiento de las empresas   otro factor importante, es que ese conocimiento es propio de la organización, es aquella cultura que le permite diferenciarse de los demás, aunque los demás fabriquen lo mismo. supongamos que estamos frente a tres fábricas de sombreros, cada una de ellas importa de la china similares líneas tecnologizadas de producción. sin embargo, una de ellas al poco tiempo quiebra, la otra apenas logra sobrevivir y la última es exitosa en el mercado. notoriamente la diferencia no estuvo en la tecnología, si no en los recursos humanos que intervinieron junto con la tecnología.    </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6Hyojoe6LsO" slidebank="false" type="slide"> 1 4 5 3 6 2 1 adquisición del conocimiento 2 identificación del conocimiento 3 retención del conocimiento 4 utilización del conocimiento 5 compartición y distribución  del conocimiento 6 desarrollo del conocimiento 14| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1 el conocimiento de las empresas   tenemos entonces que las personas y la tecnología no son antagónicas, por el contrario, complementarias. pero necesariamente las personas debieron adquirir nuevas competencias para trabajar con la tecnología. las organizaciones que aprenden, gestionan su conocimiento de manera tal que lo preservan como un capital, lo multiplican al interior de la organización y lo actualizan de manera permanente.  pero saben que ese conocimiento, que se traduce en la práctica en competencias laborales, radica principalmente en las personas.   </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.68rMAzW7L70" slidebank="false" type="slide">intrínseca              extrínseca              factores de  motivación externos factores de motivación internos     motivación por aprender   el primer peldaño para la adquisición de nuevas competencias en los trabajadores es lograr que estos quieran aprenderlas. todos debemos querer aprender, querer con mayúsculas. dicho de otro modo, estamos hablando de la motivación para el aprendizaje.  "motivación" es aquello que incita, mantiene y dirige la acción de un sujeto, le impulsa a actuar en determinada forma o a desarrollar una propensión para un comportamiento específico. 15| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1     motivación motivación motivación motivación motivación motivación</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5Z3WaiOR4QF" slidebank="false" type="slide"> existen innumerables recetas para superar este negativismo, pero algunas que son artesanales funcionan bastante bien, como es anotar el pensamiento positivo en un papel, guardarlo debajo de la almohada antes de dormir.  esta sola acción cambia en el mediano plazo a los pensamientos negativos.   un segundo elemento consiste en cambiar los patrones de pensamiento. en nuestros pensamientos siempre tenemos voces que nos dicen que esto o aquello resultará mal… si esto efectivamente sucede, entonces tenemos una retroalimentación negativa.  debemos aprender a bloquear estos pensamientos que muchas veces son reiterativos y que no tienen ninguna lógica.    lo primero es tener conciencia de la responsabilidad con uno mismo, las metas y planes que nos fijamos, y de los aspectos emocionales para que no decaiga el entusiasmo. es importante comprender, que ello depende de la propia persona, más que de aspectos o factores externos. la fe en la que uno mismo pueda ser es fundamental.  cómo lograr la automotivación  uno de los indicadores de éxito del  tutor es su capacidad para potenciar la motivación del aprendiz y lograr el aumento de la confianza en sus propias capacidades para el aprendizaje y el desempeño en la empresa. los pensamientos positivos que uno pueda anotar deben estar relacionados con las metas que se están proponiendo, si éstas parecen inalcanzables, entonces la sugerencia es establecer una línea de metas más alcanzables en línea con el objetivo mayor. el paso es establecer un plan de acción para el cumplimiento de las metas, siendo importante generar un auto reconocimiento en la medida que los hitos se van cumpliendo. 16| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1   responsabilidad con uno mismo    patrones de pensamiento.    cambiar patrones   </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5zmhdRxprqc" slidebank="false" type="slide">   la relación instructor / aprendiz  la efectividad del proceso de aprendizaje depende mucho de la relación establecida entre el instructor y el aprendiz.  los tutores instruyen, preparan, observan, motivan, responden inquietudes y entregan opiniones acerca del rendimiento del aprendiz, todo lo cual tiene un alto impacto en la motivación para el aprendizaje de éste. relación instructor/aprendiz relación instructor/aprendiz    3. planificación y dedicación  con una buena planificación y dedicación será capaz de sacar adelante cualquier desafío de aprendizaje, por complicado que parezca. paso 3. planificación y dedicación paso 3. planificación y dedicación    2. organización  la organización es uno de los elementos fundamentales para favorecer el aprendizaje, especialmente cuando éste se produce en una línea de trabajo específica. paso 2. la organización             paso 2. la organización                1. aprendizaje diario  el aprendizaje diario, es casi obligatorio. esto consiste en ver nuestras propias necesidades, analizar en qué campos o temas tenemos más problemas, cuáles son las prioridades inmediatas y a partir de ahí confeccionarnos un horario de "trabajo" diario.   paso 1. aprendizaje diario paso 1. aprendizaje diario  los estudios constituyen su principal obligación y debe afrontarlos con seriedad.   es necesario ser constante y trabajar diariamente en el desafío de aprender nuevas habilidades. por otra parte, se requiere flexibilidad y tolerancia para aceptar errores y comenzar a corregirlos. de los errores se aprende.     actuar con seriedad y rigor  cómo aprender a estudiar  ante todo, es fundamental la mentalización de "tener que estudiar". si partimos de la base de que no queremos aprender, el resto sobra.  17|técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1                      paso 1. aprendizaje diario paso 1. aprendizaje diario paso 1. aprendizaje diario                     paso 1. aprendizaje diario        paso 2. la organización            .        paso 2. la organización            .        paso 2. la organización            .        paso 2. la organización            .             paso 3. planificación y dedicación             paso 3. planificación y dedicación             paso 3. planificación y dedicación             paso 3. planificación y dedicación relación instructor/aprendiz relación instructor/aprendiz relación instructor/aprendiz relación instructor/aprendiz</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.6K18xVIwJcS" slidebank="false" type="slide"> una habitación suficientemente silenciosa: cualquier ruido distrae y dificulta la concentración.   es preferible estudiar en silencio, sin música, o en todo caso con una música tranquila (preferiblemente música clásica) a bajo volumen.  tranquilidad  hay que cuidar la luz y la temperatura de la habitación, debe estar suficientemente (no en exceso) iluminado, mejor con luz natural.   si se trata de luz artificial es mejor combinar una luz indirecta que ilumine toda la habitación y un foco centrado en la mesa. luz y temperatura  hay que estudiar sentado delante de una mesa. la amplitud de la mesa debe permitir que todo el material esté al alcance de la mano de estudio que se vaya a necesitar.  también es importante generar una rutina que facilite la concentración.   sentado incorrecto vuelva a intentarlo continue continue continue continue correcto respuesta correcta continue continue continue continue   el lugar donde se aprende el lugar donde se aprende  en las empresas normalmente el proceso de transferencia y adquisición de competencias se realizará de manera prioritaria en la línea de trabajo, y en segundo lugar en otros ambientes para el estudio de aspectos teóricos. más adelante veremos cómo se produce la entrega de la capacitación en el puesto de trabajo, mientras tanto veremos cuales son las características del lugar de estudio de los aspectos teóricos.  arrastre a la posición correcta: en las empresas normalmente el proceso de transferencia y adquisición de competencias se realizará de manera prioritaria en la línea de trabajo, y en segundo lugar en otros ambientes para el estudio de aspectos teóricos. más adelante veremos cómo se produce la entrega de la capacitación en el puesto de trabajo, mientras tanto veremos cuales son las características del lugar de estudio de los aspectos teóricos.  arrastre a la posición correcta: 18|técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1    revisar revisar revisar revisar  condiciones óptimas del lugar de estudio condiciones deficientes  del lugar de estudio  comodidad comodidad comodidad ruidos ruidos ruidos de pie de pie de pie luz natural luz natural luz natural silencio silencio silencio lugar oscuro lugar oscuro lugar oscuro</slidetext>
+      <slidetext slideid="6CXlMZsYKUq.5tglRnpVgQl" slidebank="false" type="slide"> parte de las habilidades del tutor consiste en respetar el tiempo designado para la capacitación. si bien cada sesión tiene un tiempo determinado, el tiempo real de capacitación podrá variar dependiendo de los acuerdos con el cliente interno.        administrando el tiempo   algunos consejos que pueden ayudar a una mejor gestión del tiempo:   no retrasar el comienzo del estudio.  hay que estudiar desde el primer día del proceso de capacitación.   la planificación diaria hay que cumplirla con rigurosidad: si uno ha establecido comenzar a estudiar a las 4:30 de la tarde debe ponerse con los libros justo a esa hora y no media hora más tarde. mientras antes se empiece antes se termina.   19| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1    anticipar el estudio. por ejemplo, si el lunes el tutor solicita que se ejecuten algunas tareas para el jueves es conveniente tratar de hacerlas el mismo lunes, si es posible.   aprovechar los tiempos muertos: por ejemplo, en el metro o el bus o el colectivo… estos momentos se pueden aprovechar repasando la materia.   </slidetext>
+      <slidetext slideid="6CXlMZsYKUq.68Bx9titq9y" slidebank="false" type="slide">incorrecto vuelva a intentarlo continue continue continue continue correcto respuesta correcta continue continue continue continue verdadero o falso verdadero o falso  esta sección consta de 7 afirmaciones, cada una puede ser verdadera o falsa. elija entre las alternativas aquella que considere correcta. marque  la opción elegida en la celda de la columna v o f cada respuesta en color verde vale 1 punto. cuente sus puntos. sobre 4 usted aprendió los principales contenidos del módulo. esta sección consta de 7 afirmaciones, cada una puede ser verdadera o falsa. elija entre las alternativas aquella que considere correcta. marque  la opción elegida en la celda de la columna v o f cada respuesta en color verde vale 1 punto. cuente sus puntos. sobre 4 usted aprendió los principales contenidos del módulo. 20| técnicas para la enseñanza práctica en el puesto de trabajo| módulo 1   revisar revisar revisar revisar        verdadero falso                                                 si una persona no se actualiza en las competencias, corre el riesgo de ser reemplazado por un robot. las competencias laborales privilegian aquellas que se refieren al hacer cosas. la capacitación corresponde a la educación formal. la formación en el trabajo tiene la ventaja de que se orienta a la tarea específica.  el principal rol del instructor es que su aprendiz adquiera las competencias laborales del puesto de trabajo. el principal rol del instructor es que su aprendiz adquiera las competencias laborales del puesto de trabajo. el principal rol del instructor es que su aprendiz adquiera las competencias laborales del puesto de trabajo. el módulo de capacitación 70 20 y 10 privilegia la formación en centros externos a la empresa. el módulo de capacitación 70 20 y 10 privilegia la formación en centros externos a la empresa. el módulo de capacitación 70 20 y 10 privilegia la formación en centros externos a la empresa. las personas no son antagónicas a la tecnología, sino complementarias. las personas no son antagónicas a la tecnología, sino complementarias. las personas no son antagónicas a la tecnología, sino complementarias.                                        </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#464646'&gt;Estos son algunos v&amp;#237;nculos y documentos &amp;#250;tiles:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
